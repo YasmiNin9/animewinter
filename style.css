@@ -343,6 +343,18 @@ main p{
     border-radius: 10px;
 }
 
+.section-1 iframe {
+    position: relative;
+    left: 5px;
+    border-radius: 10px;
+}
+
+.section-2 iframe {
+    position: relative;
+    left: 5px;
+    border-radius: 10px;
+}
+
 main .sinopse {
     font-style: italic;
     text-align: justify;
@@ -417,8 +429,6 @@ main .sinopse {
 
 }
 
-
-
 /*-----------MOBILE ASIDE------------*/
 /*-----------MOBILE ASIDE------------*/
 /*-----------MOBILE ASIDE------------*/
@@ -492,9 +502,21 @@ main .sinopse {
 
 
 
-/*----------(GERAL) TELA 500PX-------------*/
-/*----------(GERAL) TELA 500PX-------------*/
+/*----------(GERAL) TELA 1100|980|500PX-------------*/
+/*----------(GERAL) TELA 1100|980|500PX-------------*/
 
+@media only screen and (max-width:1100px){
+    iframe {
+        width: 760px;
+    }
+}
+
+@media only screen and (max-width:980px){
+    iframe {
+        width: 97%;
+        height: 300px;
+    }
+}
 
 
 @media only screen and (max-width:500px){
@@ -525,11 +547,12 @@ main .sinopse {
     .socials{
         display: none;
     }
+
 }
 
     
     /*----------TELA 280PX-------------*/
-    /*----------(GERAL) TELA 500PX-------------*/
+    /*----------TELA 280PX-------------*/
 
 
     
@@ -552,4 +575,4 @@ main .sinopse {
         }
     }
 
-    /*-----------media------------*/
+    /*-----------fim------------*/
